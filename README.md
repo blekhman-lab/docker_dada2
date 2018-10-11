@@ -1,6 +1,6 @@
 # DADA2 Docker image
 
-[![](https://images.microbadger.com/badges/version/blekhmanlab/dada2.svg)](https://microbadger.com/images/blekhmanlab/dada2 "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/blekhmanlab/dada2.svg)](https://microbadger.com/images/blekhmanlab/dada2 "Get your own image badge on microbadger.com")
+[![](https://img.shields.io/badge/dada2-1.8.0-blue.svg)](https://hub.docker.com/r/blekhmanlab/dada2/ "Current DADA2 version is 1.8.0")[![](https://img.shields.io/docker/pulls/blekhmanlab/dada2.svg)](https://hub.docker.com/r/blekhmanlab/dada2/ "DADA2 image on Docker Hub")
 
 A simplified, updated repository based on the [dada2docker](https://github.com/joey711/dada2docker) repo from Paul J. McMurdie.
 
@@ -34,3 +34,6 @@ docker run -it -v "$pwd":/cool_demonstration blekhmanlab/dada2 Rscript /cool_dem
 ```
 
 This will mount the current working directory on the *host* machine to a location called `/cool_demonstration` *within the container*. So your script will be in the container at `/cool_demonstration/test.R`, and on startup the container will run the `Rscript /cool_demonstration/test.R` command and then exit.
+
+
+*Badges at top of README via [shields.io](https://shields.io/).*
