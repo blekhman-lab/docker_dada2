@@ -1,6 +1,6 @@
 # DADA2 Docker image
 
-[![](https://img.shields.io/badge/dada2-1.8.0-blue.svg)](https://hub.docker.com/r/blekhmanlab/dada2/ "Current DADA2 version is 1.8.0")[![](https://img.shields.io/docker/pulls/blekhmanlab/dada2.svg)](https://hub.docker.com/r/blekhmanlab/dada2/ "DADA2 image on Docker Hub")
+[![](https://img.shields.io/badge/dada2-1.10.1-blue.svg)](https://hub.docker.com/r/blekhmanlab/dada2/ "Current DADA2 version is 1.10.1")[![](https://img.shields.io/docker/pulls/blekhmanlab/dada2.svg)](https://hub.docker.com/r/blekhmanlab/dada2/ "DADA2 image on Docker Hub")
 
 A simplified, updated repository based on the [dada2docker](https://github.com/joey711/dada2docker) repo from Paul J. McMurdie.
 
