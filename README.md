@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/badge/dada2-1.14.0-blue.svg)](https://hub.docker.com/r/blekhmanlab/dada2/ "Current DADA2 version is 1.14.0")[![](https://img.shields.io/docker/pulls/blekhmanlab/dada2.svg)](https://hub.docker.com/r/blekhmanlab/dada2/ "DADA2 image on Docker Hub")
 
-A simplified, updated repository based on the [dada2docker](https://github.com/joey711/dada2docker) repo from Paul J. McMurdie.
+A simplified, updated repository based on the [dada2docker](https://github.com/joey711/dada2docker) repo from Paul J. McMurdie. This provides an isolated environment from which to run [DADA2](https://benjjneb.github.io/dada2/index.html), a tool for analyzing amplicon sequencing data. If you want to run a version of DADA2 that has system requirements that don't line up with your local environment (DADA2 v1.14 requires R version 3.6.1, for example), running the containerized version may simplify the process.
 
 ## Use
 
