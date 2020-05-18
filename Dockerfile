@@ -13,5 +13,6 @@ LABEL maintainer="rabdill@umn.edu"
 LABEL org.label-schema.version = "1.14.0"
 
 RUN R -e 'BiocManager::install("dada2", version="3.10", update=TRUE, ask=FALSE)'
+RUN R -e 'BiocManager::install("decontam", version="3.10", update=TRUE, ask=FALSE)'
 
 CMD ["R"]
