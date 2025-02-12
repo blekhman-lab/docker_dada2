@@ -12,6 +12,8 @@ LABEL maintainer="rabdill@uchicago.edu"
 # this "version" label reflects the installed version of DADA2:
 LABEL org.label-schema.version = "1.26.0"
 
+RUN apt update
+RUN apt install libjpeg62
 RUN R -e 'BiocManager::install("dada2", version="3.16", update=TRUE, ask=FALSE)'
 RUN R -e 'BiocManager::install("decontam", version="3.16", update=TRUE, ask=FALSE)'
 
